@@ -23,7 +23,7 @@ import (
 	"io/ioutil"
 	"reflect"
 
-	"github.com/cloudwego/hertz/cmd/hz/util"
+	"github.com/MindMayhem/hertz/cmd/hz/util"
 	"gopkg.in/yaml.v2"
 )
 

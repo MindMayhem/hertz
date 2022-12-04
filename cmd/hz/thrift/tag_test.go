@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/hertz/cmd/hz/config"
+	"github.com/MindMayhem/hertz/cmd/hz/config"
 	"github.com/cloudwego/thriftgo/plugin"
 )
 

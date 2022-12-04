@@ -25,20 +25,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/bytestr"
-	"github.com/cloudwego/hertz/pkg/app/server/render"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/common/test/mock"
-	"github.com/cloudwego/hertz/pkg/common/testdata/proto"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/req"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/resp"
-	con "github.com/cloudwego/hertz/pkg/route/consts"
-	"github.com/cloudwego/hertz/pkg/route/param"
+	"github.com/MindMayhem/hertz/internal/bytesconv"
+	"github.com/MindMayhem/hertz/internal/bytestr"
+	"github.com/MindMayhem/hertz/pkg/app/server/render"
+	errs "github.com/MindMayhem/hertz/pkg/common/errors"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/common/test/mock"
+	"github.com/MindMayhem/hertz/pkg/common/testdata/proto"
+	"github.com/MindMayhem/hertz/pkg/common/utils"
+	"github.com/MindMayhem/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/protocol/http1/req"
+	"github.com/MindMayhem/hertz/pkg/protocol/http1/resp"
+	con "github.com/MindMayhem/hertz/pkg/route/consts"
+	"github.com/MindMayhem/hertz/pkg/route/param"
 )
 
 func TestProtobuf(t *testing.T) {
@@ -501,8 +501,8 @@ func TestRequestContext_HandlerName(t *testing.T) {
 	c := NewContext(0)
 	c.handlers = HandlersChain{testFunc, testFunc2}
 	val := c.HandlerName()
-	if val != "github.com/cloudwego/hertz/pkg/app.testFunc2" {
-		t.Fatalf("unexpected %v. Expecting %v", val, "github.com/cloudwego/hertz.testFunc2")
+	if val != "github.com/MindMayhem/hertz/pkg/app.testFunc2" {
+		t.Fatalf("unexpected %v. Expecting %v", val, "github.com/MindMayhem/hertz.testFunc2")
 	}
 }
 

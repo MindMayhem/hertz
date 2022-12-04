@@ -23,13 +23,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudwego/hertz/cmd/hz/config"
-	"github.com/cloudwego/hertz/cmd/hz/generator"
-	"github.com/cloudwego/hertz/cmd/hz/meta"
-	"github.com/cloudwego/hertz/cmd/hz/protobuf"
-	"github.com/cloudwego/hertz/cmd/hz/thrift"
-	"github.com/cloudwego/hertz/cmd/hz/util"
-	"github.com/cloudwego/hertz/cmd/hz/util/logs"
+	"github.com/MindMayhem/hertz/cmd/hz/config"
+	"github.com/MindMayhem/hertz/cmd/hz/generator"
+	"github.com/MindMayhem/hertz/cmd/hz/meta"
+	"github.com/MindMayhem/hertz/cmd/hz/protobuf"
+	"github.com/MindMayhem/hertz/cmd/hz/thrift"
+	"github.com/MindMayhem/hertz/cmd/hz/util"
+	"github.com/MindMayhem/hertz/cmd/hz/util/logs"
 	"github.com/urfave/cli/v2"
 )
 

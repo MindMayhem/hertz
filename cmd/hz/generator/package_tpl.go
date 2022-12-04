@@ -61,7 +61,7 @@ package {{.PackageName}}
 import (
 	"context"
 
-	"github.com/cloudwego/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/app"
 
 {{- range $k, $v := .Imports}}
 	{{$k}} "{{$v.Package}}"
@@ -95,7 +95,7 @@ func {{$MethodInfo.Name}}(ctx context.Context, c *app.RequestContext) {
 package {{$.PackageName}}
 
 import (
-	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/MindMayhem/hertz/pkg/app/server"
 
     {{- range $k, $v := .HandlerPackages}}
         {{$k}} "{{$v}}"
@@ -144,7 +144,7 @@ func Register(r *server.Hertz) {
 package router
 
 import (
-	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/MindMayhem/hertz/pkg/app/server"
 	{{$.PkgAlias}} "{{$.Pkg}}"
 )
 
@@ -168,7 +168,7 @@ func GeneratedRegister(r *server.Hertz){
 package {{$.PackageName}}
 
 import (
-	"github.com/cloudwego/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/app"
 )
 
 {{define "M"}}
@@ -191,8 +191,8 @@ func {{.MiddleWare}}Mw() []app.HandlerFunc {
 package {{$.PackageName}}
 
 import (
-    "github.com/cloudwego/hertz/pkg/app/client"
-	"github.com/cloudwego/hertz/pkg/common/config"
+    "github.com/MindMayhem/hertz/pkg/app/client"
+	"github.com/MindMayhem/hertz/pkg/common/config"
 )
 
 type {{.ServiceName}}Client struct {

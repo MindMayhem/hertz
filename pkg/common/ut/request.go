@@ -22,8 +22,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/route"
+	"github.com/MindMayhem/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/route"
 )
 
 // Header is a key-value pair indicating one http header
@@ -40,7 +40,7 @@ type Body struct {
 
 // PerformRequest send a constructed request to given engine without network transporting
 //
-// Url can be a standard relative URI or a simple absolute path
+// # Url can be a standard relative URI or a simple absolute path
 //
 // If engine.streamRequestBody is true, it sets body as bodyStream
 // if not, it sets body as bodyBytes

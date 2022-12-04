@@ -44,9 +44,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/config"
-	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/common/config"
+	"github.com/MindMayhem/hertz/pkg/protocol"
 )
 
 type Route struct {

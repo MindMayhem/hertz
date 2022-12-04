@@ -2,12 +2,12 @@
 
 English | [中文](README_cn.md)
 
-[![Release](https://img.shields.io/github/v/release/cloudwego/hertz)](https://github.com/cloudwego/hertz/releases)
+[![Release](https://img.shields.io/github/v/release/cloudwego/hertz)](https://github.com/MindMayhem/hertz/releases)
 [![WebSite](https://img.shields.io/website?up_message=cloudwego&url=https%3A%2F%2Fwww.cloudwego.io%2F)](https://www.cloudwego.io/)
-[![License](https://img.shields.io/github/license/cloudwego/hertz)](https://github.com/cloudwego/hertz/blob/main/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cloudwego/hertz)](https://goreportcard.com/report/github.com/cloudwego/hertz)
-[![OpenIssue](https://img.shields.io/github/issues/cloudwego/hertz)](https://github.com/cloudwego/hertz/issues)
-[![ClosedIssue](https://img.shields.io/github/issues-closed/cloudwego/hertz)](https://github.com/cloudwego/hertz/issues?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/github/license/cloudwego/hertz)](https://github.com/MindMayhem/hertz/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MindMayhem/hertz)](https://goreportcard.com/report/github.com/MindMayhem/hertz)
+[![OpenIssue](https://img.shields.io/github/issues/cloudwego/hertz)](https://github.com/MindMayhem/hertz/issues)
+[![ClosedIssue](https://img.shields.io/github/issues-closed/cloudwego/hertz)](https://github.com/MindMayhem/hertz/issues?q=is%3Aissue+is%3Aclosed)
 ![Stars](https://img.shields.io/github/stars/cloudwego/hertz)
 ![Forks](https://img.shields.io/github/forks/cloudwego/hertz)
 
@@ -25,7 +25,7 @@ Hertz [həːts] is a high-usability, high-performance and high-extensibility Gol
   ![Performance](images/performance-4.png)
   Comparison of three frameworks:
   ![Performance](images/performance-3.png)
-  For detailed performance data, please refer to [hertz-benchmark](https://github.com/cloudwego/hertz-benchmark).
+  For detailed performance data, please refer to [hertz-benchmark](https://github.com/MindMayhem/hertz-benchmark).
 - High extensibility
 
   Hertz adopts a layered design, providing more interfaces and default extension implementations. Users can also extend by themselves. At the same time, thanks to the layered design of the framework, the extensibility of the framework will be much greater. At present, only stable capabilities are open-sourced to the community. More planning refers to [RoadMap](ROADMAP.md).
@@ -55,7 +55,7 @@ Hertz [həːts] is a high-usability, high-performance and high-extensibility Gol
 ## Related Projects
 - [Netpoll](https://github.com/cloudwego/netpoll): A high-performance network library. Hertz integrated by default.
 - [Hertz-Contrib](https://github.com/hertz-contrib): A partial extension library of Hertz, which users can integrate into Hertz through options according to their needs.
-- [Example](https://github.com/cloudwego/hertz-examples): Use examples of Hertz.
+- [Example](https://github.com/MindMayhem/hertz-examples): Use examples of Hertz.
 ## Extensions
 
 | Extensions                                                                                         | Description                                                                                                                                                                    |
@@ -80,8 +80,8 @@ Hertz [həːts] is a high-usability, high-performance and high-extensibility Gol
 | [Cors](https://github.com/hertz-contrib/cors)                                                      | Provides cross-domain resource sharing support.                                                                                                                                |
 | [Swagger](https://github.com/hertz-contrib/swagger)                                                | Automatically generate RESTful API documentation with Swagger 2.0.                                                                                                             |
 | [Tracer](https://github.com/hertz-contrib/tracer)                                                  | Link tracing based on Opentracing.                                                                                                                                             |
-| [Recovery](https://github.com/cloudwego/hertz/tree/develop/pkg/app/middlewares/server/recovery)    | Recovery middleware for Hertz.                                                                                                                                                 |
-| [Basicauth](https://github.com/cloudwego/hertz/tree/develop/pkg/app/middlewares/server/basic_auth) | Basicauth middleware can provide HTTP basic authentication.                                                                                                                    |
+| [Recovery](https://github.com/MindMayhem/hertz/tree/develop/pkg/app/middlewares/server/recovery)    | Recovery middleware for Hertz.                                                                                                                                                 |
+| [Basicauth](https://github.com/MindMayhem/hertz/tree/develop/pkg/app/middlewares/server/basic_auth) | Basicauth middleware can provide HTTP basic authentication.                                                                                                                    |
 | [Lark](https://github.com/hertz-contrib/lark-hertz)                                                | Use hertz handle Lark/Feishu card message and event callback.                                                                                                                  |
 | [Logger](https://github.com/hertz-contrib/logger)                                                  | Logger extension for Hertz, which provides support for zap, logrus, zerologs logging frameworks.                                                                               |
 | [Csrf](https://github.com/hertz-contrib/csrf)                                                      | Csrf middleware is used to prevent cross-site request forgery attacks.                                                                                                         |
@@ -95,15 +95,15 @@ Hertz [həːts] is a high-usability, high-performance and high-extensibility Gol
 - [A Practical Introduction to the HTTP Framework Hertz: A Guide to Performance Testing](https://www.cloudwego.io/zh/blog/2022/11/01/http-%E6%A1%86%E6%9E%B6-hertz-%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97/)
 ## Contributing
 
-[Contributing](https://github.com/cloudwego/hertz/blob/main/CONTRIBUTING.md)
+[Contributing](https://github.com/MindMayhem/hertz/blob/main/CONTRIBUTING.md)
 ## RoadMap
 [Hertz RoadMap](ROADMAP.md)
 ## License
-Hertz is distributed under the [Apache License, version 2.0](https://github.com/cloudwego/hertz/blob/main/LICENSE). The licenses of third party dependencies of Hertz are explained [here](https://github.com/cloudwego/hertz/blob/main/licenses).
+Hertz is distributed under the [Apache License, version 2.0](https://github.com/MindMayhem/hertz/blob/main/LICENSE). The licenses of third party dependencies of Hertz are explained [here](https://github.com/MindMayhem/hertz/blob/main/licenses).
 ## Community
 - Email: [conduct@cloudwego.io](conduct@cloudwego.io)
 - How to become a member: [COMMUNITY MEMBERSHIP](https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md)
-- Issues: [Issues](https://github.com/cloudwego/hertz/issues)
+- Issues: [Issues](https://github.com/MindMayhem/hertz/issues)
 - Slack: Join our CloudWeGo community [Slack Channel](https://join.slack.com/t/cloudwego/shared_invite/zt-tmcbzewn-UjXMF3ZQsPhl7W3tEDZboA).
 - Lark: Scan the QR code below with [Lark](https://www.larksuite.com/zh_cn/download) to join our CloudWeGo/hertz user group.
 
@@ -114,7 +114,7 @@ Hertz is distributed under the [Apache License, version 2.0](https://github.com/
 ## Contributors
 Thank you for your contribution to Hertz!
 
-[![Contributors](https://contrib.rocks/image?repo=cloudwego/hertz)](https://github.com/cloudwego/hertz/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=cloudwego/hertz)](https://github.com/MindMayhem/hertz/graphs/contributors)
 ## Landscapes
 
 <p align="center">

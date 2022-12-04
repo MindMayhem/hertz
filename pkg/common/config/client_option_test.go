@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
 )
 
 // TestDefaultClientOptions test client options with default values

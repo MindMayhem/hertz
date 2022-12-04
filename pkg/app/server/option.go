@@ -21,12 +21,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/server/registry"
-	"github.com/cloudwego/hertz/pkg/common/config"
-	"github.com/cloudwego/hertz/pkg/common/tracer"
-	"github.com/cloudwego/hertz/pkg/common/tracer/stats"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/network/standard"
+	"github.com/MindMayhem/hertz/pkg/app/server/registry"
+	"github.com/MindMayhem/hertz/pkg/common/config"
+	"github.com/MindMayhem/hertz/pkg/common/tracer"
+	"github.com/MindMayhem/hertz/pkg/common/tracer/stats"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/network/standard"
 )
 
 // WithKeepAliveTimeout sets keep-alive timeout.

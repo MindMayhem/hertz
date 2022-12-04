@@ -25,8 +25,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/common/hlog"
+	"github.com/MindMayhem/hertz/pkg/network"
 	"github.com/cloudwego/netpoll"
 )
 

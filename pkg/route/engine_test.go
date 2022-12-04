@@ -53,14 +53,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/common/config"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/common/test/mock"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/network/netpoll"
-	"github.com/cloudwego/hertz/pkg/network/standard"
+	"github.com/MindMayhem/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/common/config"
+	errs "github.com/MindMayhem/hertz/pkg/common/errors"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/common/test/mock"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/network/netpoll"
+	"github.com/MindMayhem/hertz/pkg/network/standard"
 )
 
 func TestNew_Engine(t *testing.T) {
@@ -313,57 +313,57 @@ func TestEngine_Routes(t *testing.T) {
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest1",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest1",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/user",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest2",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest2",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/user/:name/*action",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest1",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest1",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/v1/user",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest1",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest1",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/static/*filepath",
-		Handler: "github.com/cloudwego/hertz/pkg/app.(*fsHandler).handleRequest-fm",
+		Handler: "github.com/MindMayhem/hertz/pkg/app.(*fsHandler).handleRequest-fm",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/anonymous1",
-		Handler: "github.com/cloudwego/hertz/pkg/route.TestEngine_Routes.func1",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.TestEngine_Routes.func1",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "POST",
 		Path:    "/user",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest2",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest2",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "POST",
 		Path:    "/user/:name/*action",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest2",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest2",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "POST",
 		Path:    "/anonymous2",
-		Handler: "github.com/cloudwego/hertz/pkg/route.TestEngine_Routes.func2",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.TestEngine_Routes.func2",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "POST",
 		Path:    "/v1/login",
-		Handler: "github.com/cloudwego/hertz/pkg/route.handlerTest2",
+		Handler: "github.com/MindMayhem/hertz/pkg/route.handlerTest2",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "HEAD",
 		Path:    "/static/*filepath",
-		Handler: "github.com/cloudwego/hertz/pkg/app.(*fsHandler).handleRequest-fm",
+		Handler: "github.com/MindMayhem/hertz/pkg/app.(*fsHandler).handleRequest-fm",
 	})
 }
 

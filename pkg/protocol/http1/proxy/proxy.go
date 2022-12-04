@@ -31,13 +31,13 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/bytestr"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	reqI "github.com/cloudwego/hertz/pkg/protocol/http1/req"
-	respI "github.com/cloudwego/hertz/pkg/protocol/http1/resp"
+	"github.com/MindMayhem/hertz/internal/bytesconv"
+	"github.com/MindMayhem/hertz/internal/bytestr"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
+	reqI "github.com/MindMayhem/hertz/pkg/protocol/http1/req"
+	respI "github.com/MindMayhem/hertz/pkg/protocol/http1/resp"
 )
 
 func SetupProxy(conn network.Conn, addr string, proxyURI *protocol.URI, tlsConfig *tls.Config, isTLS bool, dialer network.Dialer) (network.Conn, error) {

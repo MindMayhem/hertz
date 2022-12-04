@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/app/server"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/app/server"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
 )
 
 func TestCompatResponse_WriteHeader(t *testing.T) {

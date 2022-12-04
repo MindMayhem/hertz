@@ -17,9 +17,9 @@
 package factory
 
 import (
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/http1"
-	"github.com/cloudwego/hertz/pkg/protocol/suite"
+	"github.com/MindMayhem/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/protocol/http1"
+	"github.com/MindMayhem/hertz/pkg/protocol/suite"
 )
 
 var _ suite.ServerFactory = (*serverFactory)(nil)

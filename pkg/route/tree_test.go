@@ -29,8 +29,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/route/param"
+	"github.com/MindMayhem/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/route/param"
 )
 
 // Used as a workaround since we can't compare functions or their addresses

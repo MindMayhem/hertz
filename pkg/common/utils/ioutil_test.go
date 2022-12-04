@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/network"
 )
 
 func TestIoutilCopyBuffer(t *testing.T) {

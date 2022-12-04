@@ -22,10 +22,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cloudwego/hertz/cmd/hz/generator/model"
-	"github.com/cloudwego/hertz/cmd/hz/generator/model/golang"
-	"github.com/cloudwego/hertz/cmd/hz/meta"
-	"github.com/cloudwego/hertz/cmd/hz/util"
+	"github.com/MindMayhem/hertz/cmd/hz/generator/model"
+	"github.com/MindMayhem/hertz/cmd/hz/generator/model/golang"
+	"github.com/MindMayhem/hertz/cmd/hz/meta"
+	"github.com/MindMayhem/hertz/cmd/hz/util"
 )
 
 //---------------------------------Backend----------------------------------

@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/config"
-	"github.com/cloudwego/hertz/pkg/common/hlog"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/common/config"
+	"github.com/MindMayhem/hertz/pkg/common/hlog"
+	"github.com/MindMayhem/hertz/pkg/network"
 	"github.com/cloudwego/netpoll"
 )
 

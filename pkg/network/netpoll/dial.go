@@ -23,8 +23,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/common/errors"
+	"github.com/MindMayhem/hertz/pkg/network"
 	"github.com/cloudwego/netpoll"
 )
 

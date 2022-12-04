@@ -46,12 +46,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cloudwego/hertz/internal/bytesconv"
-	"github.com/cloudwego/hertz/internal/bytestr"
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/internal/bytesconv"
+	"github.com/MindMayhem/hertz/internal/bytestr"
+	errs "github.com/MindMayhem/hertz/pkg/common/errors"
+	"github.com/MindMayhem/hertz/pkg/common/utils"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
 )
 
 const maxContentLengthInStream = 8 * 1024

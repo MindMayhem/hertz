@@ -47,7 +47,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
 )
 
 func TestCookieAppendBytes(t *testing.T) {

@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudwego/hertz/cmd/hz/config"
-	"github.com/cloudwego/hertz/cmd/hz/generator"
-	"github.com/cloudwego/hertz/cmd/hz/generator/model"
-	"github.com/cloudwego/hertz/cmd/hz/util"
+	"github.com/MindMayhem/hertz/cmd/hz/config"
+	"github.com/MindMayhem/hertz/cmd/hz/generator"
+	"github.com/MindMayhem/hertz/cmd/hz/generator/model"
+	"github.com/MindMayhem/hertz/cmd/hz/util"
 	"github.com/cloudwego/thriftgo/parser"
 )
 

@@ -45,9 +45,9 @@ import (
 	"encoding/xml"
 	"testing"
 
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/protocol"
 	"github.com/bytedance/sonic"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
-	"github.com/cloudwego/hertz/pkg/protocol"
 )
 
 type xmlmap map[string]interface{}

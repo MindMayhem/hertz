@@ -48,7 +48,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/network"
 )
 
 const (

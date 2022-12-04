@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/server/registry"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/app/server/registry"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
 )
 
 // TestDefaultOptions test options with default values

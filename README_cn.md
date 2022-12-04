@@ -2,12 +2,12 @@
 
 [English](README.md) | 中文
 
-[![Release](https://img.shields.io/github/v/release/cloudwego/hertz)](https://github.com/cloudwego/hertz/releases)
+[![Release](https://img.shields.io/github/v/release/cloudwego/hertz)](https://github.com/MindMayhem/hertz/releases)
 [![WebSite](https://img.shields.io/website?up_message=cloudwego&url=https%3A%2F%2Fwww.cloudwego.io%2F)](https://www.cloudwego.io/)
-[![License](https://img.shields.io/github/license/cloudwego/hertz)](https://github.com/cloudwego/hertz/blob/main/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/cloudwego/hertz)](https://goreportcard.com/report/github.com/cloudwego/hertz)
-[![OpenIssue](https://img.shields.io/github/issues/cloudwego/hertz)](https://github.com/cloudwego/hertz/issues)
-[![ClosedIssue](https://img.shields.io/github/issues-closed/cloudwego/hertz)](https://github.com/cloudwego/hertz/issues?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/github/license/cloudwego/hertz)](https://github.com/MindMayhem/hertz/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/MindMayhem/hertz)](https://goreportcard.com/report/github.com/MindMayhem/hertz)
+[![OpenIssue](https://img.shields.io/github/issues/cloudwego/hertz)](https://github.com/MindMayhem/hertz/issues)
+[![ClosedIssue](https://img.shields.io/github/issues-closed/cloudwego/hertz)](https://github.com/MindMayhem/hertz/issues?q=is%3Aissue+is%3Aclosed)
 ![Stars](https://img.shields.io/github/stars/cloudwego/hertz)
 ![Forks](https://img.shields.io/github/forks/cloudwego/hertz)
 
@@ -24,7 +24,7 @@ Hertz[həːts] 是一个 Golang 微服务 HTTP 框架，在设计之初参考了
   ![Performance](images/performance-4.png)
   三个框架的对比:
   ![Performance](images/performance-3.png)
-  关于详细的性能数据，可参考 [hertz-benchmark](https://github.com/cloudwego/hertz-benchmark)。
+  关于详细的性能数据，可参考 [hertz-benchmark](https://github.com/MindMayhem/hertz-benchmark)。
 - 高扩展性
 
   Hertz 采用了分层设计，提供了较多的接口以及默认的扩展实现，用户也可以自行扩展。同时得益于框架的分层设计，框架的扩展性也会大很多。目前仅将稳定的能力开源给社区，更多的规划参考 [RoadMap](ROADMAP.md)。
@@ -55,7 +55,7 @@ Hertz[həːts] 是一个 Golang 微服务 HTTP 框架，在设计之初参考了
 ## 相关项目
 - [Netpoll](https://github.com/cloudwego/netpoll): 自研高性能网络库，Hertz 默认集成
 - [Hertz-Contrib](https://github.com/hertz-contrib): Hertz 扩展仓库，提供中间件、tracer 等能力
-- [Example](https://github.com/cloudwego/hertz-examples): Hertz 使用例子
+- [Example](https://github.com/MindMayhem/hertz-examples): Hertz 使用例子
 ## 相关拓展
 
 | 拓展                                                                                                 | 描述                                                                                                |
@@ -80,8 +80,8 @@ Hertz[həːts] 是一个 Golang 微服务 HTTP 框架，在设计之初参考了
 | [Cors](https://github.com/hertz-contrib/cors)                                                      | 提供跨域资源共享支持。                                                                                       |
 | [Swagger](https://github.com/hertz-contrib/swagger)                                                | 使用 Swagger 2.0 自动生成 RESTful API 文档。                                                               |
 | [Tracer](https://github.com/hertz-contrib/tracer)                                                  | 基于 Opentracing 的链路追踪。                                                                             |
-| [Recovery](https://github.com/cloudwego/hertz/tree/develop/pkg/app/middlewares/server/recovery)    | Hertz 的异常恢复中间件。                                                                                   |
-| [Basicauth](https://github.com/cloudwego/hertz/tree/develop/pkg/app/middlewares/server/basic_auth) | Basicauth 中间件能够提供 HTTP 基本身份验证。                                                                    |
+| [Recovery](https://github.com/MindMayhem/hertz/tree/develop/pkg/app/middlewares/server/recovery)    | Hertz 的异常恢复中间件。                                                                                   |
+| [Basicauth](https://github.com/MindMayhem/hertz/tree/develop/pkg/app/middlewares/server/basic_auth) | Basicauth 中间件能够提供 HTTP 基本身份验证。                                                                    |
 | [Lark](https://github.com/hertz-contrib/lark-hertz)                                                | 在 Hertz 中处理 Lark/飞书的卡片消息和事件的回调。                                                                   |
 | [Logger](https://github.com/hertz-contrib/logger)                                                  | Hertz 的日志拓展，提供了对 zap、logrus、zerologs 日志框架的支持。                                                     |
 | [Csrf](https://github.com/hertz-contrib/csrf)                                                      | Csrf 中间件用于防止跨站点请求伪造攻击。                                                                            |
@@ -94,17 +94,17 @@ Hertz[həːts] 是一个 Golang 微服务 HTTP 框架，在设计之初参考了
 - [助力字节降本增效，大规模企业级 HTTP 框架 Hertz 设计实践](https://www.cloudwego.io/zh/blog/2022/09/27/%E5%8A%A9%E5%8A%9B%E5%AD%97%E8%8A%82%E9%99%8D%E6%9C%AC%E5%A2%9E%E6%95%88%E5%A4%A7%E8%A7%84%E6%A8%A1%E4%BC%81%E4%B8%9A%E7%BA%A7-http-%E6%A1%86%E6%9E%B6-hertz-%E8%AE%BE%E8%AE%A1%E5%AE%9E%E8%B7%B5/)
 - [HTTP 框架 Hertz 实践入门：性能测试指南](https://www.cloudwego.io/zh/blog/2022/11/01/http-%E6%A1%86%E6%9E%B6-hertz-%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97/)
 ## 贡献代码
-  [Contributing](https://github.com/cloudwego/hertz/blob/main/CONTRIBUTING.md)
+  [Contributing](https://github.com/MindMayhem/hertz/blob/main/CONTRIBUTING.md)
 ## RoadMap
   [Hertz RoadMap](ROADMAP.md)
 ## 开源许可
 
-Hertz 基于[Apache License 2.0](https://github.com/cloudwego/hertz/blob/main/LICENSE) 许可证，其依赖的三方组件的开源许可见 [Licenses](https://github.com/cloudwego/hertz/blob/main/licenses)。
+Hertz 基于[Apache License 2.0](https://github.com/MindMayhem/hertz/blob/main/LICENSE) 许可证，其依赖的三方组件的开源许可见 [Licenses](https://github.com/MindMayhem/hertz/blob/main/licenses)。
 
 ## 联系我们
 - Email: conduct@cloudwego.io
 - 如何成为 member: [COMMUNITY MEMBERSHIP](https://github.com/cloudwego/community/blob/main/COMMUNITY_MEMBERSHIP.md)
-- Issues: [Issues](https://github.com/cloudwego/hertz/issues)
+- Issues: [Issues](https://github.com/MindMayhem/hertz/issues)
 - Slack: 加入我们的 [Slack 频道](https://join.slack.com/t/cloudwego/shared_invite/zt-tmcbzewn-UjXMF3ZQsPhl7W3tEDZboA)
 - 飞书用户群（[注册飞书](https://www.larksuite.com/zh_cn/download)进群）
 
@@ -115,7 +115,7 @@ Hertz 基于[Apache License 2.0](https://github.com/cloudwego/hertz/blob/main/LI
 ## 贡献者
 感谢您对 Hertz 作出的贡献！
 
-[![Contributors](https://contrib.rocks/image?repo=cloudwego/hertz)](https://github.com/cloudwego/hertz/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=cloudwego/hertz)](https://github.com/MindMayhem/hertz/graphs/contributors)
 ## Landscapes
 
 <p align="center">

@@ -22,10 +22,10 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app"
-	"github.com/cloudwego/hertz/pkg/app/server"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/app"
+	"github.com/MindMayhem/hertz/pkg/app/server"
+	"github.com/MindMayhem/hertz/pkg/common/utils"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
 )
 
 func formatAsDate(t time.Time) string {

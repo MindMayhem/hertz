@@ -43,12 +43,12 @@ package utils
 import (
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
 )
 
 func TestPathCleanPath(t *testing.T) {
-	normalPath := "/Foo/Bar/go/src/github.com/cloudwego/hertz/pkg/common/utils/path_test.go"
-	expectedNormalPath := "/Foo/Bar/go/src/github.com/cloudwego/hertz/pkg/common/utils/path_test.go"
+	normalPath := "/Foo/Bar/go/src/github.com/MindMayhem/hertz/pkg/common/utils/path_test.go"
+	expectedNormalPath := "/Foo/Bar/go/src/github.com/MindMayhem/hertz/pkg/common/utils/path_test.go"
 	cleanNormalPath := CleanPath(normalPath)
 	assert.DeepEqual(t, expectedNormalPath, cleanNormalPath)
 
@@ -73,12 +73,12 @@ func TestPathCleanPath(t *testing.T) {
 	cleanNullPath := CleanPath(nullPath)
 	assert.DeepEqual(t, expectedNullPath, cleanNullPath)
 
-	relativePath := "/Foo/Bar/../go/src/../../github.com/cloudwego/hertz"
-	expectedRelativePath := "/Foo/github.com/cloudwego/hertz"
+	relativePath := "/Foo/Bar/../go/src/../../github.com/MindMayhem/hertz"
+	expectedRelativePath := "/Foo/github.com/MindMayhem/hertz"
 	cleanRelativePath := CleanPath(relativePath)
 	assert.DeepEqual(t, expectedRelativePath, cleanRelativePath)
 
-	multiSlashPath := "///////Foo//Bar////go//src/github.com/cloudwego/hertz//.."
+	multiSlashPath := "///////Foo//Bar////go//src/github.com/MindMayhem/hertz//.."
 	expectedMultiSlashPath := "/Foo/Bar/go/src/github.com/cloudwego"
 	cleanMultiSlashPath := CleanPath(multiSlashPath)
 	assert.DeepEqual(t, expectedMultiSlashPath, cleanMultiSlashPath)

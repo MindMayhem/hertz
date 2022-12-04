@@ -19,7 +19,7 @@ package ut
 import (
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
 )
 
 func TestResult(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/cloudwego/hertz
+module github.com/MindMayhem/hertz
 
 go 1.16
 

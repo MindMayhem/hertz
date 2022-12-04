@@ -48,9 +48,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/cloudwego/hertz/pkg/common/stackless"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/common/stackless"
+	"github.com/MindMayhem/hertz/pkg/common/utils"
+	"github.com/MindMayhem/hertz/pkg/network"
 	"github.com/valyala/bytebufferpool"
 )
 

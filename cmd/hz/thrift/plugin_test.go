@@ -20,9 +20,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/cloudwego/hertz/cmd/hz/generator"
-	"github.com/cloudwego/hertz/cmd/hz/meta"
-	"github.com/cloudwego/hertz/cmd/hz/util"
+	"github.com/MindMayhem/hertz/cmd/hz/generator"
+	"github.com/MindMayhem/hertz/cmd/hz/meta"
+	"github.com/MindMayhem/hertz/cmd/hz/util"
 	"github.com/cloudwego/thriftgo/plugin"
 )
 

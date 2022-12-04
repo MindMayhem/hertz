@@ -20,9 +20,9 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/cloudwego/hertz/pkg/app/client/retry"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/app/client/retry"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
 )
 
 // ClientOption is the only struct that can be used to set ClientOptions.

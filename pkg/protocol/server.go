@@ -19,7 +19,7 @@ package protocol
 import (
 	"context"
 
-	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/network"
 )
 
 type Server interface {
