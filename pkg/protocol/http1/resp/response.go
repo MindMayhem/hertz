@@ -47,11 +47,11 @@ import (
 	"io"
 	"sync"
 
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
-	"github.com/cloudwego/hertz/pkg/protocol/http1/ext"
+	errs "github.com/MindMayhem/hertz/pkg/common/errors"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/protocol"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/protocol/http1/ext"
 	"github.com/valyala/bytebufferpool"
 )
 

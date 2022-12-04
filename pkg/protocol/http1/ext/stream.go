@@ -46,9 +46,9 @@ import (
 	"io"
 	"sync"
 
-	errs "github.com/cloudwego/hertz/pkg/common/errors"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network"
+	errs "github.com/MindMayhem/hertz/pkg/common/errors"
+	"github.com/MindMayhem/hertz/pkg/common/utils"
+	"github.com/MindMayhem/hertz/pkg/network"
 	"github.com/valyala/bytebufferpool"
 )
 

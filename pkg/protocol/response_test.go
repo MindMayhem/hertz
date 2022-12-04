@@ -48,8 +48,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cloudwego/hertz/pkg/common/compress"
-	"github.com/cloudwego/hertz/pkg/common/test/assert"
+	"github.com/MindMayhem/hertz/pkg/common/compress"
+	"github.com/MindMayhem/hertz/pkg/common/test/assert"
 	"github.com/valyala/bytebufferpool"
 )
 

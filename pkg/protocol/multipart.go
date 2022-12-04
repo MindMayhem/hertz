@@ -51,9 +51,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cloudwego/hertz/pkg/common/utils"
-	"github.com/cloudwego/hertz/pkg/network"
-	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/MindMayhem/hertz/pkg/common/utils"
+	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/MindMayhem/hertz/pkg/protocol/consts"
 	"github.com/valyala/bytebufferpool"
 )
 
