@@ -46,10 +46,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/MindMayhem/hertz/pkg/common/bytebufferpool"
-	errs "github.com/MindMayhem/hertz/pkg/common/errors"
-	"github.com/MindMayhem/hertz/pkg/common/utils"
-	"github.com/MindMayhem/hertz/pkg/network"
+	errs "github.com/cloudwego/hertz/pkg/common/errors"
+	"github.com/cloudwego/hertz/pkg/common/utils"
+	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/valyala/bytebufferpool"
 )
 
 var (

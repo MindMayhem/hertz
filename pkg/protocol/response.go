@@ -46,11 +46,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/MindMayhem/hertz/internal/nocopy"
-	"github.com/MindMayhem/hertz/pkg/common/bytebufferpool"
-	"github.com/MindMayhem/hertz/pkg/common/compress"
-	"github.com/MindMayhem/hertz/pkg/common/utils"
-	"github.com/MindMayhem/hertz/pkg/network"
+	"github.com/cloudwego/hertz/internal/nocopy"
+	"github.com/cloudwego/hertz/pkg/common/compress"
+	"github.com/cloudwego/hertz/pkg/common/utils"
+	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/valyala/bytebufferpool"
 )
 
 var responsePool sync.Pool

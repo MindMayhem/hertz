@@ -58,17 +58,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MindMayhem/hertz/internal/bytesconv"
-	"github.com/MindMayhem/hertz/internal/bytestr"
-	"github.com/MindMayhem/hertz/internal/nocopy"
-	"github.com/MindMayhem/hertz/pkg/common/bytebufferpool"
-	"github.com/MindMayhem/hertz/pkg/common/compress"
-	"github.com/MindMayhem/hertz/pkg/common/errors"
-	"github.com/MindMayhem/hertz/pkg/common/hlog"
-	"github.com/MindMayhem/hertz/pkg/common/utils"
-	"github.com/MindMayhem/hertz/pkg/network"
-	"github.com/MindMayhem/hertz/pkg/protocol"
-	"github.com/MindMayhem/hertz/pkg/protocol/consts"
+	"github.com/cloudwego/hertz/internal/bytesconv"
+	"github.com/cloudwego/hertz/internal/bytestr"
+	"github.com/cloudwego/hertz/internal/nocopy"
+	"github.com/cloudwego/hertz/pkg/common/compress"
+	"github.com/cloudwego/hertz/pkg/common/errors"
+	"github.com/cloudwego/hertz/pkg/common/hlog"
+	"github.com/cloudwego/hertz/pkg/common/utils"
+	"github.com/cloudwego/hertz/pkg/network"
+	"github.com/cloudwego/hertz/pkg/protocol"
+	"github.com/cloudwego/hertz/pkg/protocol/consts"
+	"github.com/valyala/bytebufferpool"
 )
 
 var (
